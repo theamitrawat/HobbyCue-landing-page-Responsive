@@ -24,7 +24,7 @@
                 </div>
             </div>
 
-            <div class="sign-link-box">
+            <div class="sign-link-box active-box">
                 <div class="dropdown-link-box">
                     <img src="./Images/explore-icon.png" alt="explore icon">
                     <span>Explore</span>
@@ -71,6 +71,7 @@
                 </div>
             </div>
             <div class="menu-bell-container">
+                <img src="./Images/search-icon2.png" alt="" id="search-icon2">
                 <img src="./Images/bell-icon.png" alt="bell-icon" class="bell-icon">
                 <img src="./Images/menu-icon.png" alt="menu-icon" class="menu-icon">
             </div>
@@ -86,21 +87,25 @@
             <div class="listing-box">
                 <div class="item-box box1">
                     <h1><i class="fa-solid fa-users-line"></i> People</h1>
-                    <p>An Individual or Organization.  Teacher, Coach, Professional or Online Seller.  Company, Business or Association.</p>
+                    <p>An Individual or Organization. Teacher, Coach, Professional or Online Seller. Company, Business
+                        or Association.</p>
                 </div>
                 <div class="item-box box2">
                     <h1><i class="fa-solid fa-location-dot"></i> Place</h1>
-                    <p>An Address.  Classroom, Shop, Performance or Event Venue, Sports Arena, Play Area, Studio, School or Campus.</p>
+                    <p>An Address. Classroom, Shop, Performance or Event Venue, Sports Arena, Play Area, Studio, School
+                        or Campus.</p>
                 </div>
             </div>
             <div class="listing-box">
                 <div class="item-box box3">
                     <h1><i class="fa-solid fa-cart-shopping"></i> Product</h1>
-                    <p>An Item that you can Book, Buy or Rent.  Appointment, Ticket, or Voucher.  Equipment, Instrument or Activity Kit.</p>
+                    <p>An Item that you can Book, Buy or Rent. Appointment, Ticket, or Voucher. Equipment, Instrument or
+                        Activity Kit.</p>
                 </div>
                 <div class="item-box box4">
                     <h1><i class="fa-solid fa-calendar-check"></i> Program</h1>
-                    <p>An Event with Venue and Date.  Meetup, Workshop or Webinar.  Exhibition, Performance or Competition.</p>
+                    <p>An Event with Venue and Date. Meetup, Workshop or Webinar. Exhibition, Performance or
+                        Competition.</p>
                 </div>
             </div>
         </div>
@@ -108,7 +113,13 @@
 
 
     <script src="https://kit.fontawesome.com/94e9144b27.js" crossorigin="anonymous"></script>
-    <script src="after_login_script.js"></script>
+    <script>
+        let menuIcon = document.querySelector(".menu-icon");
+        let signLinkBox = document.querySelector(".sign-link-box");
+        menuIcon.onclick = function () {
+            signLinkBox.classList.toggle("active-box");
+        }
+    </script>
 </body>
 
 </html>
