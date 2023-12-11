@@ -728,14 +728,14 @@ nav {
 
 .track-box {
     display: flex;
-    gap: 1rem;
+    gap: 10px;
     align-items: center;
 }
 
 .track-box input {
     appearance: none;
     cursor: pointer;
-    width: 468px;
+    width: 26vw;
     height: 4px;
     border-radius: 4px;
 }
@@ -983,6 +983,11 @@ footer h3 {
     .bell-icon {
         width: 30px;
         height: 30px;
+    }
+
+    .sound-box {
+        padding: 10px;
+        gap: 15px;
     }
 
 
