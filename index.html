@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobby Cue - Your Hobby, Your Community</title>
+    <link rel="shortcut icon" href="./Images/HobbyCue Logo- android.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-------------------------NAVBAR SECTION ----------------------->
+
+    <header>
+        <nav>
+            <div class="logo-searh-container">
+                <a href="#">
+                    <img src="./Images/HobbyCue Logo.png" alt="hc-logo" id="hc-logo1">
+                    <img src="./Images/HobbyCue Logo- android.png" alt="hc-logo2" id="hc-logo2">
+                </a>
+
+                <div class="search-box">
+                    <input type="text" placeholder="Search here" id="input-box">
+                    <button type="button" id="search-btn"><img src="./Images/search-icon.png" alt=""></button>
+                </div>
+            </div>
+
+            <div class="sign-link-box active-box">
+                <div class="dropdown-link-box ">
+                    <img src="./Images/explore-icon.png" alt="explore icon">
+                    <span>Explore</span>
+                    <img src="./Images/down-arrow-icon.png" alt="down-arrow-icon">
+                    <div class="expl-hover">
+                        <ul>
+                            <a href="#">
+                                <li>People - Community</li>
+                            </a>
+                            <hr>
+                            <a href="#">
+                                <li>Places - Venues</li>
+                            </a>
+                            <hr>
+                            <a href="#">
+                                <li>Programs - Events</li>
+                            </a>
+                            <hr>
+                            <a href="#">
+                                <li>Products - Store</li>
+                            </a>
+                            <hr>
+                            <a href="#">
+                                <li>Blogs</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="dropdown-link-box">
+                    <img src="./Images/star-icon.png" alt="star-icon">
+                    <span>Hobbies</span>
+                    <img src="./Images/down-arrow-icon.png" alt="down-arrow-icon">
+                </div>
+
+
+                <a href="#"><img src="./Images/save-icon.png" alt="save-icon"></a>
+                <a href="#"><img src="./Images/bell-icon.png" alt="bell-icon"></a>
+                <a href="#"><img src="./Images/cart-icon.png" alt="cart-icon"></a>
+
+                <button type="button" id="sign-in-btn" 
+                onclick="">Sign In</button>
+            </div>
+            <div class="menu-bell-container">
+                <img src="./Images/search-icon2.png" alt="" id="search-icon2">
+                <img src="./Images/bell-icon.png" alt="bell-icon" class="bell-icon">
+                <img src="./Images/menu-icon.png" alt="menu-icon" class="menu-icon">
+            </div>
+
+        </nav>
+    </header>
+
+    <!------------------------MAIN PAGE SECTION --------------------->
+
+    <section class="main-page-container">
+        <div class="main-box">
+            <div class="left-info-box">
+                <h1>Explore your <span style="color: #0096C8;">hobby</span> or <span style="color: #8064A2;">passion</span></h1>
+                <p>Sign-in to interact with a community of fellow hobbyists and an eco-system of experts, teachers,
+                    suppliers, classes, workshops, and places to practice, participate or perform. Your hobby may be
+                    about visual or performing arts, sports, games, gardening, model making, cooking, indoor or outdoor
+                    activities…
+                </p>
+                <p>If you are an expert or a seller, you can Add your Listing and promote yourself, your students,
+                    products, services or events. Hop on your hobbyhorse and enjoy the ride.</p>
+                <img src="./Images/group-img.png" alt="group image">
+            </div>
+
+            <div class="right-sign-join-box">
+                <div class="button-box">
+                    <button type="button" id="s-btn" class="active-btn">Sign In</button>
+                    <button type="button" id="j-btn">Join In</button>
+                </div>
+                <div class="form-box">
+                    <div class="sign-form-box">
+                        <form id="sign-form">
+                            <button type="button"> <img src="./Images/google-icon.png" alt="google icon"> continue with
+                                Google</button>
+                            <button type="button"> <img src="./Images/fb-icon.png" alt="fb icon"> continue with
+                                Facebook</button>
+                            <span id="con-msg">Or connect with</span>
+                            <input type="email" name="email" id="s-input-email" placeholder="Email">
+                            <div class="password-box">
+                                <input type="password" name="password" id="s-input-password" placeholder="Password">
+                                <img src="./Images/close-eye-icon.png" alt="close eye icon">
+                            </div>
+                            <div class="fgt-rmb-container">
+                                <div class="rmb-box">
+                                    <input type="checkbox" id="checkbox">
+                                    <label for="checkbox"> Remember me</label>
+                                </div>
+                                <div class="fgt-box">
+                                    <img src="./Images/lock-icon.png" alt="">
+                                    <span>Forgot password</span>
+                                </div>
+                            </div>
+                            <button type="button" id="cnt-btn"> Continue </button>
+                        </form>
+                    </div>
+
+                    <div class="join-form-box">
+                        <form id="join-form">
+                            <button type="button"> <img src="./Images/google-icon.png" alt="google icon"> continue with
+                                Google</button>
+                            <button type="button"> <img src="./Images/fb-icon.png" alt="fb icon"> continue with
+                                Facebook</button>
+                            <span id="con-msg">Or connect with</span>
+                            <input type="email" name="email" id="j-input-email" placeholder="Email">
+                            <div class="password-box">
+                                <div class="p-eye-box">
+                                    <input type="password" name="password" id="j-input-password" placeholder="Password">
+                                    <img src="./Images/close-eye-icon.png" alt="close eye icon" id="eye">
+                                </div>
+                                <span id="strength-msg">Password strength</span>
+                            </div>
+                            <p>By continuing, you agree to our <a href="#">Terms of Service</a> and <a href="#">Privacy
+                                    Policy</a>.</p>
+                            <button type="submit" id="agr-cnt-btn"> Agree and Continue </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <img src="./Images/group-img.png" alt="group image">
+        </div>
+    </section>
+
+    <!----------------------- ITEM BOX SECTION ---------------------->
+
+    <section class="item-container">
+        <div class="item-box">
+            <div class="people-place-container ">
+                <div class="people-box">
+                    <h1> <img src="./Images/group-icon.png" alt="group-icon" id="grp-icon"> People</h1>
+                    <p>Find a teacher, coach, or expert for your hobby interest in your locality. Find a partner,
+                        teammate, accompanist or collaborator.</p>
+                    <button type="button">Connect</button>
+                </div>
+                <div class="place-box">
+                    <h1> <img src="./Images/location-icon.png" alt="location-icon" id="lct-icon"> Place</h1>
+                    <p>Find a class, school, playground, auditorium, studio, shop or an event venue. Book a slot at
+                        venues that allow booking through hobbycue.</p>
+                    <button type="button">Meet up</button>
+                </div>
+            </div>
+            <div class="product-program-container">
+                <div class="product-box">
+                    <h1> <img src="./Images/basket-icon.png" alt="event-icon" id="bskt-icon"> Product</h1>
+                    <p>Find equipment or supplies required for your hobby. Buy, rent or borrow from shops, online stores
+                        or from community members.</p>
+                    <button type="button">Get it</button>
+                </div>
+                <div class="program-box">
+                    <h1> <img src="./Images/event-icon.png" alt="basket-icon" evt-icon> Program</h1>
+                    <p>Find events, meetups and workshops related to your hobby. Register or buy tickets online.</p>
+                    <button type="button">Attend</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----------------------ADD YOUR OWN SECTION ------------------->
+
+    <section class="add-your-own">
+        <div class="add-box">
+            <h1> <img src="./Images/add-icon.png" alt="group-icon" id="grp-icon"> Add your own</h1>
+            <p>Are you a teacher or expert?  Do you sell or rent out equipment, venue or event tickets?  Or, you know someone who should be on hobbycue?  Go ahead and Add your Own page.</p>
+            <button type="button">Add new</button>
+        </div>
+    </section>
+
+    <!----------------------TESTIMONIAL SECTION -------------------->
+
+    <section class="testimonial-container">
+        <div class="tsml-box">
+            <h1><img src="./Images/quote-icon.png" alt=""> Testimonials</h1>
+            <p>In a fast growing and ever changing city like Bangalore, it sometimes becomes very difficult to find or connect with like minded people. Websites like hobbycue.com is a great service which helps me get in touch with, communicate, connect, and exchange ideas with other dancers. It also provides the extra benefit of finding products and services that I can avail, which I can be assured is going to be of great quality as it comes recommended by people of the hobbycue community. To have discussions, to get visibility, and to be able to safely explore various hobbies and activities in my city, all under one roof, is an excellent idea and I highly recommend it.</p>
+            <div class="voice-box">
+                <div class="sound-box">
+                    <div class="play-icon-box">
+                        <img src="./Images/play-icon.png" alt="">
+                    </div>
+                    <div class="track-box">
+                        <input type="range" name="track" id="progress-track" value="0">
+                        <span>00:00</span>
+                    </div>
+                    <div class="id-mic-box">
+                        <img src="./Images/id-img.png" alt="" id="id-img">
+                        <img src="./Images/mic-icon.png" alt="" id="mic">
+                    </div>
+                </div>
+                <div class="id-box">
+                    <img src="./Images/id-img.png" alt="">
+                    <div class="id-info">
+                        <h5>Shubha Nagarajan</h5>
+                        <p>Classical Dancer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----------------------LAST POSTER SECTION -------------------->
+
+    <section class="last-poster-container">
+        <div class="info-btn-box">
+            <h1>Your <span style="color: #0096C8;">Hobby</span>, Your <span style="color: #8064A2;">passion</span>...</h1>
+            <button>Get Started</button>
+        </div>
+
+        <img src="./Images/group-img2.png" alt="">
+    </section>
+
+    <!-----------------------TOP BUTTON SECTION -------------------->
+
+    <div class="top-btn-box">
+        <a href="#"><img src="./Images/top-btn-ico.png" alt="top button"></a>
+        <div class="btn-info">
+            Go to top (Ctrl+Home)
+        </div>
+    </div>
+
+    <!-------------------------FOOTER SECTION ---------------------->
+
+    <footer>
+        <div class="link-media-container">
+            <div class="link-box">
+                <ul>
+                    <li class="main-link">Hobbycue</li>
+                    <a href="#"><li>About Us</li></a>
+                    <a href="#"><li>Our Services</li></a>
+                    <a href="#"><li>Work with Us</li></a>
+                    <a href="#"><li>FAQ</li></a>
+                    <a href="#"><li>Contact Us</li></a>
+                </ul>
+            </div>
+            <div class="link-box">
+                <ul>
+                    <li class="main-link">How Do I</li>
+                    <a href="#"><li>Sign Up</li></a>
+                    <a href="#"><li>Add a Listing</li></a>
+                    <a href="#"><li>Claim Listing</li></a>
+                    <a href="#"><li>Post a Query</li></a>
+                    <a href="#"><li>Add a Blog Post</li></a>
+                    <a href="#"><li>Other Queries</li></a>
+                </ul>
+            </div>
+            <div class="link-box">
+                <ul>
+                    <li class="main-link">Quick Links</li>
+                    <a href="#"><li>Listings</li></a>
+                    <a href="#"><li>Blog Posts</li></a>
+                    <a href="#"><li>Shop / Store</li></a>
+                    <a href="#"><li>Community</li></a>
+                </ul>
+            </div>
+            <div class="media-box">
+                <div class="media-icon-box">
+                    <h3>Social Media</h3>
+                    <div class="icon-box">
+                        <a href="#"><img src="./Images/x-fb-icon.png" alt=""></a>
+                        <a href="#"><img src="./Images/x-twitter-icon.png" alt=""></a>
+                        <a href="#"><img src="./Images/x-insta-icon.png" alt=""></a>
+                        <a href="#"><img src="./Images/x-pinterest-icon.png" alt=""></a>
+                        <a href="#"><img src="./Images/x-google-icon.png" alt=""></a>
+                        <a href="#"><img src="./Images/x-yt-icon.png" alt=""></a>
+                        <a href="#"><img src="./Images/x-tele-icon.png" alt=""></a>
+                        <a href="#"><img src="./Images/x-mail-icon.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="invite-frnd-box">
+                    <h3>Social Media</h3>
+                    <div class="email-box">
+                        <input type="email" name="Email" id="invite-input" placeholder="Email ID">
+                        <button type="button">Invite</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-container">&copy; Purple Cues Private Limited</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
