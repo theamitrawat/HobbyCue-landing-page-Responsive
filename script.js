@@ -2,8 +2,10 @@ const signButton = document.getElementById('sign-in-btn');
 let menuIcon = document.querySelector(".menu-icon");
 let signLinkBox = document.querySelector(".sign-link-box");
 let inputBox = document.querySelector('.p-eye-box');
+let password2 = document.getElementById('s-input-password');
 let password = document.getElementById('j-input-password');
 let msg = document.getElementById('strength-msg');
+let eye2 = document.getElementById('s-eye');
 let eye = document.getElementById('eye');
 const signButtonF = document.getElementById('s-btn');
 const joinButtonF = document.getElementById('j-btn');
@@ -68,6 +70,16 @@ function checkPasswordStrength() {
 }
 
 password.addEventListener('input', checkPasswordStrength);
+
+eye2.onclick = function () {
+    if (password2.type === 'password') {
+        password2.type = 'text';
+        eye2.src = './Images/open-eye-icon.png';
+    } else {
+        password2.type = 'password';
+        eye2.src = './Images/close-eye-icon.png';
+    }
+}
 
 eye.onclick = function () {
     if (password.type === 'password') {
