@@ -1024,11 +1024,15 @@ footer h3 {
     }
 
     .left-info-box h1 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .left-info-box p {
-        font-size: 16px;
+        font-size: 14px;
+    }
+
+    .button-box .button-box {
+        font-size: 20px;
     }
 
     .right-sign-join-box {
@@ -1058,6 +1062,19 @@ footer h3 {
         text-align: center;
     }
 
+    .item-box>div>div>h1 {
+        font-size: 18px;
+    }
+
+    .item-box>div>div>h1 img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .item-box>div>div>p {
+        font-size: 14px;
+    }
+
     .item-box>div>div>button {
         width: 90%;
     }
@@ -1071,6 +1088,19 @@ footer h3 {
         text-align: center;
     }
 
+    .add-box h1{
+        font-size: 18px;
+    }
+
+    .add-box h1 img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .add-box p {
+        font-size: 14px;
+    }
+
     .add-box button {
         width: 90%;
     }
@@ -1082,7 +1112,29 @@ footer h3 {
         text-align: center;
     }
 
+    .tsml-box h1{
+        font-size: 18px;
+    }
+
+    .tsml-box h1 img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .tsml-box p {
+        font-size: 14px;
+    }
+
+    .id-info h5 {
+        font-size: 14px;
+    }
+
+    .id-info p {
+        font-size: 12px;
+    }
+
     .voice-box {
+        width: 100%;
         flex-direction: column-reverse;
         gap: 1rem;
         padding: 0;
@@ -1105,8 +1157,21 @@ footer h3 {
     }
 
     .play-icon-box {
-        width: 24px;
-        height: 24px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .play-icon-box img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .track-box {
+        gap: 5px;
+    }
+
+    .track-box input {
+        width: 80px;
     }
 
     #id-img {
@@ -1122,7 +1187,7 @@ footer h3 {
     }
 
     .info-btn-box h1 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .info-btn-box button {
